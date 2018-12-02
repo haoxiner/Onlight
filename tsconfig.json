@@ -1,0 +1,16 @@
+{
+    "compilerOptions": {
+        "module": "system",
+        "noImplicitAny": false,
+        "removeComments": true,
+        "preserveConstEnums": true,
+        "outFile": "./bin/scripts/onlight.js",
+        "sourceMap": false
+    },
+    "include": [
+        "src/**/*"
+    ],
+    "exclude": [
+        
+    ]
+}
