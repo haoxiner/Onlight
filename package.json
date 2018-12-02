@@ -1,0 +1,32 @@
+{
+  "name": "onlight",
+  "version": "1.0.0",
+  "description": "A WebGL Toy",
+  "main": "onlight.js",
+  "scripts": {
+    "test": "testonlight",
+    "build": "webpack --config ./webpack.conf.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/haoxiner/onlight.git"
+  },
+  "keywords": [
+    "WebGL",
+    "Real",
+    "Time",
+    "Rendering"
+  ],
+  "author": "haoxin",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/haoxiner/onlight/issues"
+  },
+  "homepage": "https://github.com/haoxiner/onlight#readme",
+  "devDependencies": {
+    "ts-loader": "^5.3.1",
+    "typescript": "^3.2.1",
+    "webpack": "^4.26.1",
+    "webpack-cli": "^3.1.2"
+  }
+}
